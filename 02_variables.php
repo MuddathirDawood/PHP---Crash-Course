@@ -18,14 +18,14 @@
     // Variables can't start with a number
     // Variables can only contain aplha-numeric characters and underscores( A-z, 0-9, _ )
     // Variables are case-sensitive
-    
+    $br = '<br>';
     $name = 'Bradley'; // STRING
     $age = 30; //INTEGER
     $has_kids = true; // BOOLEAN
     $cash_on_had = 1254.85; // FLOAT
 
-    echo $name;
-    echo $age." | ";
+    echo 'Name: '.$name, $br;
+    echo $age.", $br ";
     echo $has_kids." | ";
     echo "R".$cash_on_had." | ";
     var_dump($has_kids)." | ";
